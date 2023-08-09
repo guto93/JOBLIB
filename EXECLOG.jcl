@@ -1,0 +1,4 @@
+//FOUR003X JOB 'COMP COB',MSGCLASS=X,CLASS=C,NOTIFY=&SYSUID,TIME=(0,02) 00010000
+//STEP01   EXEC PGM=PROLOG                                              00020001
+//STEPLIB  DD DSN=PR.FOUR003.OBJ,DISP=SHR                               00030000
+//JCLLOG   DD DSN=PR.FOUR003.LOGERR,DISP=OLD                            00050003
